@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DaisyUI Layout</title>
+    <title>Rinterio</title>
     <!-- font-awesome CDN -->
     <link
       rel="stylesheet"
@@ -30,11 +30,120 @@
       .font-manrope {
         font-family: "Manrope", sans-serif;
       }
+      .color {
+        background: ;
+      }
     </style>
   </head>
   <body class="font-manrope">
     <!-- header section -->
-    <header></header>
+    <header class="bg-gray-100">
+      <div class="container mx-auto px-3 md:px-0 w-full">
+        <!-- navbar -->
+        <nav>
+          <div class="navbar bg-base-100 bg-transparent">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-right"
+                >
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a>Home</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a>Services</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a>Portfolio</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a>Blogs</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a>Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="flex items-center btn">
+                <div
+                  class="h-6 w-6 rounded-full bg-[#ABEF5F] flex items-center justify-center -rotate-45"
+                >
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+                <a class="text-[#212121] text-2xl font-extrabold md:text-3xl"
+                  >Rinterio</a
+                >
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li
+                  class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                >
+                  <a>Home</a>
+                </li>
+                <li
+                  class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                >
+                  <a>Services</a>
+                </li>
+                <li
+                  class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                >
+                  <a>Portfolio</a>
+                </li>
+                <li
+                  class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                >
+                  <a>Blogs</a>
+                </li>
+                <li
+                  class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                >
+                  <a>Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-3">
+              <div
+                class="h-8 w-8 rounded-full bg-white text-[#737373] font-thin flex items-center justify-center"
+              >
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <div
+                class="h-8 w-8 rounded-full bg-white text-[#737373] font-thin flex items-center justify-center flex-shrink-0"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              <div class="flex items-center btn rounded-3xl bg-[#ABEF5F]">
+                <a class="text-[#212121] text-lg font-extrabold "
+                  >Book Consult</a
+                >
+                <div
+                  class="h-6 w-6 rounded-full bg-[#1C1C1C] text-white flex items-center justify-center -rotate-45  flex-shrink-0"
+                >
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
     <!-- main section -->
     <main></main>
     <!-- footer section -->
