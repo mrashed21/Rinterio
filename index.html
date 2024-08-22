@@ -38,61 +38,26 @@
   <body class="font-manrope">
     <!-- header section -->
     <header class="bg-gray-100">
-      <div class="container mx-auto px-3 md:px-0 w-full">
+      <div class="container mx-auto px-3 md:px-8 w-full">
         <!-- navbar -->
         <nav>
           <div class="navbar bg-base-100 bg-transparent">
+            <!-- nav start -->
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <i class="fa-solid fa-bars text-xl"></i>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-right"
-                >
-                  <li
-                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
-                  >
-                    <a href="#">Home</a>
-                  </li>
-                  <li
-                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
-                  >
-                    <a href="#">Services</a>
-                  </li>
-                  <li
-                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
-                  >
-                    <a href="#">Portfolio</a>
-                  </li>
-                  <li
-                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
-                  >
-                    <a href="#">Blogs</a>
-                  </li>
-                  <li
-                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
-                  >
-                    <a href="#">Contact Us</a>
-                  </li>
-                </ul>
-              </div>
               <div class="flex items-center cursor-pointer">
                 <div
-                  class="h-4 w-4 md:h-6 md:w-6 rounded-full bg-[#ABEF5F] flex items-center justify-center -rotate-45"
+                  class="h-6 w-6 rounded-full bg-[#ABEF5F] flex items-center justify-center -rotate-45"
                 >
-                  <i
-                    class="fa-solid fa-arrow-right-long text-sm md:text-base"
-                  ></i>
+                  <i class="fa-solid fa-arrow-right-long"></i>
                 </div>
                 <a
                   href="#"
-                  class="text-[#212121] text-lg md:text-3xl font-extrabold"
+                  class="text-[#212121] text-2xl lg:text-3xl font-extrabold"
                   >Rinterio</a
                 >
               </div>
             </div>
+            <!-- nav center -->
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
                 <li
@@ -122,7 +87,8 @@
                 </li>
               </ul>
             </div>
-            <div class="navbar-end md:flex gap-3">
+            <!-- nav end -->
+            <div class="navbar-end flex gap-3 lg:ml-20">
               <div
                 class="h-8 w-8 rounded-full bg-white text-[#737373] font-thin md:flex items-center justify-center hidden flex-shrink-0"
               >
@@ -133,17 +99,59 @@
               >
                 <i class="fa-solid fa-cart-shopping"></i>
               </div>
-              <div class="flex items-center btn rounded-3xl bg-[#ABEF5F]">
-                <a class="text-[#212121] text-sm md:text-lg font-extrabold"
+              <div
+                class="hidden md:flex items-center btn rounded-3xl bg-[#ABEF5F]"
+              >
+                <a class="text-[#212121] text-xl font-extrabold"
                   >Book Consult</a
                 >
                 <div
-                  class="h-4 w-4 md:h-6 md:w-6 rounded-full bg-[#1C1C1C] text-white flex items-center justify-center -rotate-45 flex-shrink-0"
+                  class="h-6 w-6 rounded-full bg-[#1C1C1C] text-white flex items-center justify-center -rotate-45 flex-shrink-0"
                 >
                   <i
                     class="fa-solid fa-arrow-right-long text-sm md:text-base"
                   ></i>
                 </div>
+              </div>
+              <!-- dropdown -->
+              <div class="dropdown lg:hidden">
+                <div
+                  tabindex="0"
+                  role="button"
+                  class="btn-ghost text-right h-9 w-9 rounded-full bg-white t flex items-center justify-center flex-shrink-0"
+                >
+                  <i class="fa-solid fa-bars text-xl"></i>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-center right-0"
+                >
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a href="#">Home</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a href="#">Services</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a href="#">Portfolio</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a href="#">Blogs</a>
+                  </li>
+                  <li
+                    class="text-[#737373] hover:text-[#494949] hover:font-extrabold"
+                  >
+                    <a href="#">Contact Us</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -169,7 +177,7 @@
             that flood the space with natural light.
           </p>
           <div
-            class="flex items-center btn rounded-3xl bg-[#abef5f80] md:w-1/5 md:mx-auto"
+            class="flex items-center btn rounded-3xl bg-[#abef5f80] md:w-1/4 md:mx-auto"
           >
             <a class="text-[#212121] text-lg font-extrabold">View Details</a>
             <div
@@ -186,25 +194,22 @@
       <!-- about us -->
       <section class="mt-20 bg-gray-100">
         <div
-          class="container mx-auto px-3 py-5 md:px-0 md:py-14 w-full relative"
+          class="container mx-auto px-3 py-5 md:px-8 md:py-14 w-full relative"
         >
           <img
             src="./assets/image/Vector.png"
             alt="image"
-            class="absolute top-5 hidden md:block h-10"
+            class="absolute top-5 hidden lg:block h-10"
           />
           <div class="hero">
-            <div class="hero-content flex-col flex md:flex-row">
+            <div class="hero-content flex-col flex lg:flex-row">
               <div>
                 <!-- button -->
                 <div
-                  class="flex items-center btn rounded-3xl bg-white w-1/2 md:w-1/3 mx-auto md:mx-0"
+                  class="flex items-center btn rounded-3xl bg-white w-1/2 md:w-1/4 lg:w-6/12 mx-auto lg:mx-0"
                 >
-                  <div class="flex items-center justify-center">
-                    <i
-                      class="fa-solid fa-arrow-right-long text-sm md:text-base"
-                    ></i>
-                  </div>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+
                   <a
                     href="#"
                     class="text-[#494949] text-lg md:text-xl font-extrabold"
@@ -213,11 +218,11 @@
                 </div>
 
                 <h2
-                  class="text-[#212121] text-3xl md:text-4xl xl:text-5xl font-bold text-center md:text-start mt-4"
+                  class="text-[#212121] text-3xl xl:text-5xl font-bold text-center lg:text-start mt-4"
                 >
                   We design thoughtful, liveable spaces
                 </h2>
-                <p class="py-4 text-[#494949]">
+                <p class="py-4 text-[#494949] text-center lg:text-start">
                   The barn house captivates with its blend of rustic charm and
                   modern sophistication, featuring weathered wood, sleek metal
                   accents.
@@ -252,7 +257,7 @@
               <img
                 src="./assets/image/Rectangle.png"
                 alt="image"
-                class="h-[50vh] md:h-[87vh] w-full"
+                class="h-[50vh] md:h-[65vh] lg:h-auto rounded-2xl md:rounded-3xl lg:rounded-2xl w-full lg:w-1/2 mt-auto"
               />
             </div>
           </div>
@@ -260,9 +265,9 @@
       </section>
       <!-- content -->
       <section class="bg-gray-100 pb-24">
-        <div class="container mx-auto px-6 md:px-0 w-full">
+        <div class="container mx-auto px-6 md:px-10 w-full">
           <div
-            class="bg-white px-10 py-6 rounded-3xl flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0"
+            class="bg-white px-10 py-6 rounded-3xl flex flex-col md:grid grid-cols-2 lg:grid-cols-4 items-center justify-between space-y-8 md:space-y-0"
           >
             <div class="flex flex-col items-center space-y-2">
               <img src="./assets/icon/comment.svg" alt="icon" />
